@@ -39,7 +39,7 @@ public class InvoiceControllerTest {
     }
 
     @Test
-    public void testBooksController() {
+    public void testInvoiceController() {
 
         VatValidator bean = server.getApplicationContext().getBean(VatValidator.class);
         assertTrue(bean instanceof VatValidatorMock); // <3>
